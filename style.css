@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+.main{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 100;
+  align-items: center;
+}
+.box1{
+  width: 100%;
+  height: 50%;
+}
+.box2{
+  width: 100%;
+  height: 50%;
+}
+.text{
+  width: 91.8%;
+  text-align: justify;
+  margin: auto;
+}
+/* Dropdown button */
+.dropbtn {
+    background-color:aqua;
+    color:blue;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* Container <div> - needed to contain the dropdown content */
+  .dropdown {
+    position:relative;
+    display: inline-block;
+  }
+
+  /* .picture {
+    position:relative;
+    display: inline-block;
+  } */
+
+  .picture {
+    padding: 0px;
+    border: none;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown list */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of a dropdown button when displaying the contents of the dropdown */
+  .dropdown:hover .dropbtn {
+    background-color:aquamarine;
+  }
+
+  
+img.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 500;
+  right: 200;
+  }
+  
+  .container{
+    margin-top: 30;
+    margin-bottom: 50%;
+    padding-left: 200;
+    padding-right: 100;
+    /* justify-items: center; */
+    text-align: center;
+  }
+ .data-sheet{
+  text-align: center;
+  margin: 50px 100px;
+  background-color: tomato;
+  width: 95%;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  margin:auto
+ }
+ /* hr{
+  text-align: center;
+
+ } */
+ .contacts{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: blue;
+  background-color: aqua;
+ }
+ .admin{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: blue;
+  background-color: aqua;
+ }
+ .Agreement h4 {
+  text-align: center;
+ }
+ p{
+  text-align: justify;
+  font-family: 'Fuzzy Bubbles', cursive;
+ }
+ .Confirmation{
+  text-align: center;
+  background-color: tomato;
+ }
+ 
